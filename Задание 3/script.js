@@ -30,7 +30,8 @@ websocket.onmessage = function(evt) {
 
   // Функция вывода результата в окно чата
   function displayResult(newMessage, meOrServer='server') {
-    if (display.length < 10) {
+    console.log(display.length);
+    if (display.length < 11) {
       display.push(`
         <div class=${meOrServer}>
         <span>${newMessage}</span>
@@ -38,7 +39,8 @@ websocket.onmessage = function(evt) {
       `
         );
     } else {
-        display.splice(9, 1,`
+        display.shift();
+        display.push(`
         <div class=${meOrServer}>
         <span>${newMessage}</span>
         </div>
