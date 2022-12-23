@@ -1,0 +1,102 @@
+body {font-family: sans-serif;}
+
+.result {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+.card {
+  width: 200px;
+  margin: 20px;
+}
+
+.card-image {
+  display: block;
+  width: 200px;
+  height: 150px;
+}
+
+.input-form {
+  display: flex;
+}
+
+.btn {
+  padding: 0;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  box-shadow: none;
+  cursor: pointer;
+  
+  margin: 5px 10px;
+  padding: 10px 15px;
+  border-radius: 1px;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: white;
+  background: #315efb;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  box-shadow: 0px 2px 8px 2px rgba(141,150,178,.3);
+  transform: scale(1.05);
+}
+
+.input-block {
+  margin-top: 5px;
+  width: 400px;
+  height: 31px;
+  border: 2px solid;
+  border-color: #315efb;
+}
+
+.online-input {
+  border: 0; 
+  padding: 0;
+  margin-left: 10px;
+  width: 380px;
+  font-size: 16px;
+  text-align: left;
+  transform:translateY(5px);
+} 
+
+.win-chat {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  width: 513px;
+  height: 400px;
+  border: 2px solid;
+  border-color: #315efb
+}
+
+.me {
+  max-width: 250px;
+  height: auto; /*21px;*/
+  margin: 5px;
+  margin-left: auto;
+  margin-right: 5px;
+  padding-left: 5px;
+  padding-right: 5px; 
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: #315efb;
+}
+
+.server {
+  max-width: 250px;
+  height: auto; /* 21px; */
+  margin: 5px;
+  margin-left: 5px;
+  margin-right: auto;
+  padding-left: 5px;
+  padding-right: 5px; 
+  border: 2px solid;
+  border-radius: 5px;
+  border-color: #315efb;
+  
+}
