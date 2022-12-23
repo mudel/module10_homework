@@ -36,8 +36,8 @@ body {font-family: sans-serif;}
   font-size: 12px;
   line-height: 15px;
   text-transform: uppercase;
-  color: white;
-  background: #315efb;
+  color: black;
+  background: #8bcaf7;
   transition: 0.3s;
 }
 
@@ -51,7 +51,7 @@ body {font-family: sans-serif;}
   width: 400px;
   height: 31px;
   border: 2px solid;
-  border-color: #315efb;
+  border-color: #8bcaf7;
 }
 
 .online-input {
@@ -71,7 +71,7 @@ body {font-family: sans-serif;}
   width: 513px;
   height: 400px;
   border: 2px solid;
-  border-color: #315efb
+  border-color: #8bcaf7
 }
 
 .me {
@@ -84,7 +84,7 @@ body {font-family: sans-serif;}
   padding-right: 5px; 
   border: 2px solid;
   border-radius: 5px;
-  border-color: #315efb;
+  border-color: #8bcaf7;
 }
 
 .server {
@@ -97,6 +97,6 @@ body {font-family: sans-serif;}
   padding-right: 5px; 
   border: 2px solid;
   border-radius: 5px;
-  border-color: #315efb;
+  border-color: #8bcaf7;
   
 }
