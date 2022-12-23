@@ -46,10 +46,11 @@ websocket.onmessage = function(evt) {
       ` 
     }
 
-    if (display.length < 10) {
+    if (display.length < 11) {
       display.push(result);
     } else {
-        display.splice(9, 1, result);
+        display.shift();
+        display.push(result);
     }
     winCchat.innerHTML = display.join('');
   }
