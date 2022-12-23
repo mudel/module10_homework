@@ -57,6 +57,7 @@ websocket.onmessage = function(evt) {
     
   // Обработчик клика на кнопку Отправить
   btn.addEventListener('click', () => {
+      if (inputMessage.value === '') {return;}
       // Передача введенной строки в окно чата
       displayResult(inputMessage.value, 'me');
       // Отправка введенной строки через WebSocket
